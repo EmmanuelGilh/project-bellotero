@@ -1,0 +1,73 @@
+.titlebox1 {
+    position: relative;
+    right: 85px;
+    text-align: left;
+    top: 120px;
+    background: #071eb3;
+}
+
+.titlebox2 {
+    position: relative;
+    right: 121px;
+    text-align: left;
+    top: 115px;
+    background: #071eb3;
+}
+
+.box{
+    position: relative;
+    right: 91px;
+    height: 151px;
+    top: 75px;
+    text-align: left;
+    color: black;
+    width: 395px;
+    font-size: 14.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.numbers{
+    width: 258px;
+    height: 72px;
+    margin: 0 0 8px 8px;
+    font-size: 60px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #071eb3;
+    position: relative;
+    top: 100px;
+    left: 91px;
+}
+
+.words{
+    color: black;
+    position: relative;
+    top: 100px; 
+    width: 250px;
+    height: 13px;
+    margin: 8px 0 50px 17px;
+    font-size: 13.5px;
+    font-weight: bold;
+    position: relative;
+    left: 140px;
+    text-align: left;
+}
+
+.words2{
+    color: black;
+    position: relative;
+    top: 95px; 
+    width: 200px;
+    height: 16px;
+    margin: 8px 0 0 17px;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: 140px;
+}

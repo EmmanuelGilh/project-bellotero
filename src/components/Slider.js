@@ -1,17 +1,19 @@
 import React, { Fragment } from 'react'
+import './slider.css'
 
 export default function Slider({ value, onChange, range }) {
 
     return (<Fragment>
         <div>
-            <input type="text" id="valorRange" value={value} onChange={onChange}/> 
+            <input class='numberBox' type="text" id="valorRange" value={value} onChange={onChange} />
         </div>
         <div>
-            <input 
+            <input
                 type="range" className="$gray-300 form-range"
-                min="0" max={range}
+                min="0" max={range} class='range'
                 value={value} onChange={onChange} />
         </div>
 
-</Fragment>)}
+    </Fragment>)
+}
 

@@ -1,0 +1,19 @@
+.numberBox{
+    position: relative;
+    left: 200px;
+    height: 55px;
+    width: 200px;
+    top: 110px;
+    text-align: right;
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;    
+}
+
+.range{
+    position: relative;
+    left: 28px;
+    height: 55px;
+    width: 535px;
+    top: 110px;
+}

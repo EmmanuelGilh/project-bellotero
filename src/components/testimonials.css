@@ -1,3 +1,59 @@
-.index{
-    color: red
+.title {
+    width: 381px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: 0.77px;
+    color: #fff;
+    margin: 120px 458px 80px 172px;
+    padding: 8px 4px;
+    background-color: #071eb3;
+    width: 389px;
+    height: 56px;
+    position: relative;
+    right: 180px;
+}
+
+.boxTestimonial{
+    position: relative;
+    height: 151px;
+    width: 1150px;
+    bottom: 60px;
+    text-align: left;
+    padding: 20px 30px 12px 25px;
+    right: 25px;
+}
+
+.un{
+    padding: 10px 30px 12px 30px;
+    background-color: #071eb3;
+    width: 35px;
+    height: 32px;
+    font-family: CormorantGaramond;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1;
+    letter-spacing: 0.69px;
+    color: #fff;
+    position: relative;
+    left: 424px;
+    bottom: 70px;
+}
+
+.button{
+    color: #fff;
+    background-color: #071eb3;
+    font-size: 20px;
+    font-weight: 300;
+    width: 45px;
+    height: 38px;
+    position: relative;
+    left: 424px;
+    bottom: 70px;
 }

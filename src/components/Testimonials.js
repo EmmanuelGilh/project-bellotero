@@ -42,23 +42,23 @@ function Testimonials({ testimonial, getTestimonial }) {
 
         <div className='container bg-light'>
 
-            <div className='d-flex mb-5'>
-                <h1 className='font-weight-bold text-white bg-primary'>{data.title}</h1>
+            <div className='d-flex mb-5' >
+                <h1 className='title'>{data.title}</h1>
             </div>
 
             {/* Testimonial */}
-            <div className='bg-white row mx-5'>
-                <div className='col-4 border'>
+            <div className='boxTestimonial bg-white row mx-3'>
+                <div className='col-4'>
                     {loading ? <Fragment>
                         <Shimmer height={"15px"} /><Shimmer />
                     </Fragment>
                         : <Fragment>
-                            <h3 className='font-weight-bold'>{testimonial.name}</h3>
+                            <h3 className='font-weight-bold '>{testimonial.name}</h3>
                             <p className='text-secondary'>{`${testimonial.designation} from ${testimonial.location}`}</p>
                         </Fragment>}
 
                 </div>
-                <div className='col-8 border'>
+                <div className='col-8'>
                     <h4 className='font-weight-bold'>
                         {loading ? <Loading /> : testimonial.message}
                     </h4>
@@ -67,20 +67,20 @@ function Testimonials({ testimonial, getTestimonial }) {
 
             {/* Paginate */}
             <div>
-                <span className='text-white bg-primary rounded-0 index'>{activeIndex}/4</span>
+                <span className='un'>{activeIndex}/4</span>
                 <div class="btn-group rounded-0" role="group">
                     <button
                         type="button"
-                        class="btn btn-primary rounded-0"
+                        class="button"
                         disabled={activeIndex === 1}
                         onClick={() => { setActiveIndex(prevValue => prevValue - 1); handleTestimonial(0) }}>←</button>
                     <button type="button"
-                        class="btn btn-primary rounded-0"
+                        class="button"
                         disabled={activeIndex === 4}
                         onClick={() => { setActiveIndex(prevValue => prevValue + 1); handleTestimonial(1) }}>→</button>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
